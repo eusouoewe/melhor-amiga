@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+* {
+        padding: 0; margin: 0;
+        font-family: 'Sofia', cursive;
+}
+
+:root {
+                --cor1: pink;
+                --cor2: rgb(255, 71, 102);
+                --cor3: white;
+}
+
+header {
+        background-color: var(--cor2);
+        padding: 15px;
+        color: var(--cor3);
+        border-radius: 0 0 12px 12px;
+}
+
+header > h1 {
+        text-align: center;
+}
+
+a {
+        display: inline;
+}
+
+.sair {
+        margin-left: 78%;
+}
+
+.voltar, .prox, .sair {
+        margin-right: 20px;
+        padding: 5px;
+        text-decoration: none;
+        color: var(--cor3);
+        font-family: SF Pro Round;
+        transition: 0.5s;
+}
+
+.voltar:hover, .prox:hover, .sair:hover {
+        padding: 5px 10px;
+        background-color: var(--cor3);
+        color: black;
+        transition: 0.5s;
+        border-radius: 12px;
+}
+
+body {
+        background-color: var(--cor1);
+}
+
+main {
+        background-color: var(--cor3);
+        min-width: 400px;
+        max-width: 880px;
+        padding: 10px;
+        margin: auto;
+}
+
+main > img {
+        position: relative;
+        border: 10px;
+        width: 130px;
+        border-radius: 12px;
+        transition: 0.5s;
+}
+
+main > img:hover {
+        width: 200px;
+        transition: 0.5s;
+}
+
+footer {
+        margin-left: 86%;
+        color: black;
+}
+
+footer > p {
+        font-family: SF Pro Round;
+}
+
+footer > p > a {
+        font-family: SF Pro Round;
+        text-decoration: none;
+        color: black;
+}

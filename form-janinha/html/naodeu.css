@@ -1,0 +1,74 @@
+@charset "TUF-8";
+
+* {
+        margin: 0; padding: 0;
+        font-family: SF Pro Round;
+}
+
+:root {
+        --cor-fundo: #FFFFFF
+}
+
+header {
+        background-color: red;
+        text-align: center;
+        color: var(--cor-fundo);
+        padding: 10px;
+}
+
+body {
+        background-image: url(../backgrounds/bg.erro.jpeg);
+        width: 100vw;
+        height: 100vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+}
+
+main {
+        position: fixed;
+        left: 75%;
+        width: 400px;
+        height: 350px;
+        background-color: transparent;
+        margin: 20px 20px;
+        color: black;
+        transition: 0.5s;
+}
+
+main:hover {
+        background-color: var(--cor-fundo);
+        opacity: .8;
+        transition: 0.5s;
+        border-radius: 12px;
+}
+
+main h3 {
+        font-size: 2em;
+}
+
+main p {
+        font-size: 25px;
+        padding: 10px;
+}
+
+main img {
+        margin-left: 40%;
+        transition: 0.5s;
+}
+
+main img:hover {
+        background-color: orange;
+        border-radius: 12px;
+        transition: 0.5s;
+}
+
+footer > p {
+        text-align: right;
+        padding-top: 760px;
+        color: red;
+}
+
+footer > p > a {
+        text-decoration: none;
+        color: red;
+}
